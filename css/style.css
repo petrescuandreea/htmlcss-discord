@@ -21,6 +21,13 @@ a{
     text-decoration: none;
 }
 
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
 /* header */
 header {
     background-image: url(../img/jumbo.png);
@@ -83,6 +90,7 @@ nav li a {
     /* background-color: chocolate; */
 }
 
+
 #jumbo_content {
     color: white;
     max-height: 200px;
@@ -122,20 +130,41 @@ nav li a {
 
 /* main part*/
 main {
-    margin-top: 20px;
+    margin-top: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
-main section {
-    /* debug rules */
-    background-color:aquamarine;
-    height: 100px;
-    border: 1px solid black;
+.left_col {
+    width: 70%;
+    float: left;
 }
+
+.right_col {
+    width: 30%;
+    float: left;
+    padding-top: 30px;
+}
+section h1 {
+    font-size: 55px;
+    color: rgb(39, 37, 37);
+}
+
+section p {
+    font-size: 20px;
+    padding-top: 25px;
+}
+
+
+
+
+
 
 
 /* footer */
-footer {
-    background-color: #23272a;;
+/* footer {
+    background-color: #23272a;; */
     /* debug rules */
-    height: 300px;
-}
+    /* height: 300px;
+} */
+
