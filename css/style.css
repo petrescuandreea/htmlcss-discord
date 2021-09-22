@@ -109,7 +109,7 @@ nav li a {
     padding-top: 40px ;
 }
 
-#jumbo_cta a {
+#jumbo_cta a , .pastel_blue_button {
     padding: 15px 25px;
 }
 
@@ -154,7 +154,7 @@ section p {
     padding-top: 25px;
 }
 
-#left_position {
+#right_position {
     padding-left: 200px;
 }
 
@@ -163,8 +163,30 @@ section .description {
     padding: 0 35px;
 }
 
+.description + img {
+    width: 100%;
+}
 
+#cta_container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
 
+.stars_container {
+    margin-top: 10px;
+}
+
+h2 {
+    font-size: 25px;
+    margin-top: -10px;
+    margin-bottom: 50px;
+}
+
+.pastel_blue_button {
+    color: black;
+    background-color: rgba(86, 134, 189, 0.781);
+}
 
 /* footer */
 /* footer {
