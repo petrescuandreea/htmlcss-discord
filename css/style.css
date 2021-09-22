@@ -72,11 +72,6 @@ nav li a {
     border-radius: 50px;
 }
 
-.down_arrow {
-    font-size: 20px;
-    font-weight: bold;
-    margin-right: 10px;
-}
 
 /* jumbotron */
 #jumbo_center {
@@ -103,8 +98,8 @@ nav li a {
     padding-top: 30px;
 }
 
- #jumbo_cta {
-     padding-top: 40px ;
+#jumbo_cta {
+    padding-top: 40px ;
 }
 
 #jumbo_cta a {
@@ -113,6 +108,10 @@ nav li a {
 
 #download {
     margin-right: 20px;
+}
+
+.down_arrow {
+    margin-right: 5px;
 }
 
 .dark_button {
