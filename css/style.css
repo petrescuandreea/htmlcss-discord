@@ -4,3 +4,139 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.container_center {
+    width: 90%;
+    margin: 0 auto;
+    /* debug rules */
+    /* background-color: brown;
+    height: 100px; */
+}
+
+a{
+    text-decoration: none;
+}
+
+/* header */
+header {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    height: 500px;
+    /* debug rules */
+    /* height: 70vh; */
+}
+
+.logo {
+    text-decoration: none;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+/* nav */
+nav {
+    height: 80px;
+    margin-bottom: 40px;
+}
+
+nav ul {
+    display: inline-block;
+    margin: 0 300px;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+nav li {
+    float: left;
+    list-style-type: none;
+    padding: 20px;
+}
+
+nav li a {
+    color: white;
+}
+
+.white_button {
+    background-color: white;
+    color: black;
+}
+
+.login {
+    padding: 10px;
+}
+
+.button {
+    border-radius: 50px;
+}
+
+.down_arrow {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* jumbotron */
+#jumbo_center {
+    width: 55%;
+    margin: 0 auto;
+    height: 400px;
+    text-align: center;
+    /* debug rules */
+    /* background-color: chocolate; */
+}
+
+#jumbo_content {
+    color: white;
+    max-height: 200px;
+    overflow: hidden;
+}
+
+#jumbo_content h1 {
+    font-size: 50px;
+}
+
+#jumbo_text {
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+ #jumbo_cta {
+     padding-top: 40px ;
+}
+
+#jumbo_cta a {
+    padding: 15px 25px;
+}
+
+#download {
+    margin-right: 20px;
+}
+
+.dark_button {
+    background-color: rgb(19, 20, 20);
+    color: white;
+}
+
+
+/* main part*/
+main {
+    margin-top: 20px;
+}
+
+main section {
+    /* debug rules */
+    background-color:aquamarine;
+    height: 100px;
+    border: 1px solid black;
+}
+
+
+/* footer */
+footer {
+    background-color: #23272a;;
+    /* debug rules */
+    height: 300px;
+}
