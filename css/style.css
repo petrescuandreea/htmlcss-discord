@@ -32,34 +32,40 @@ a{
 header {
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    height: 500px;
-    /* debug rules */
+    height: 80vh;
+    /* debug rulesvh */
     /* height: 70vh; */
+}
+
+#container_header {
+    padding-top: 15px;
+    margin-bottom: 65px;
 }
 
 .logo {
     text-decoration: none;
-    line-height: 50px;
+    float: left;
+    line-height: 70px;
     vertical-align: middle;
 }
 
 /* nav */
 nav {
-    height: 80px;
-    margin-bottom: 40px;
+    float: left;
 }
 
 nav ul {
     display: inline-block;
     margin: 0 300px;
-    line-height: 50px;
-    vertical-align: middle;
 }
 
 nav li {
     float: left;
     list-style-type: none;
     padding: 20px;
+    line-height: 2px;
+    vertical-align: middle;
+
 }
 
 nav li a {
@@ -72,6 +78,7 @@ nav li a {
 }
 
 .login {
+    float: left;
     padding: 10px;
 }
 
@@ -82,14 +89,12 @@ nav li a {
 
 /* jumbotron */
 #jumbo_center {
-    width: 55%;
+    width: 50%;
     margin: 0 auto;
-    height: 400px;
     text-align: center;
     /* debug rules */
     /* background-color: chocolate; */
 }
-
 
 #jumbo_content {
     color: white;
