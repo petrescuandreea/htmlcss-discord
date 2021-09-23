@@ -33,37 +33,44 @@ header {
 }
 
 #container_header {
-    padding-top: 15px;
+    padding-top: 20px;
     margin-bottom: 65px;
 }
 
 .logo {
-    text-decoration: none;
+    width: 15%;
     float: left;
-    line-height: 70px;
+   
+}
+.logo , nav , .login {
+    line-height: 35px;
     vertical-align: middle;
 }
 
 /* nav */
 nav {
     float: left;
+    width: 75%;
+    display: inline;
 }
 
 nav ul {
-    display: inline-block;
-    margin: 0 200px;
-}
+    list-style-type: none;
+    text-align: center;
+} 
 
 nav li {
-    float: left;
-    list-style-type: none;
-    padding: 20px;
-    line-height: 2px;
-    vertical-align: middle;
+    display: inline-block;
+    margin-right: 35px ;
 }
 
 nav li a {
     color: white;
+}
+
+.sing_in {
+    width: 10%;
+    float: left;
 }
 
 .white_button {
@@ -72,7 +79,6 @@ nav li a {
 }
 
 .login {
-    float: left;
     padding: 10px;
 }
 
